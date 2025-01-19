@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Circles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input-container">
+        <label for="red">Red: </label>
+        <input type="number" id="red" min="0" value="2">
+
+        <label for="green">Green: </label>
+        <input type="number" id="green" min="0" value="4">
+
+        <label for="blue">Blue: </label>
+        <input type="number" id="blue" min="0" value="5">
+        <div>
+            <label for="numCircles">Number of Circles: </label>
+            <input type="number" id="numCircles" min="0" max="10" value="5">
+        </div>
+        <div>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+
+    <div id="circles-container" class="hidden">
+        <div id="red-row"></div>
+        <div id="green-row"></div>
+        <div id="blue-row"></div>
+
+        <button id="start">Start</button>
+        <button id="reset">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

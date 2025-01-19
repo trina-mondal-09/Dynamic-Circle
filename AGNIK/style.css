@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+.input-container {
+    margin-bottom: 20px;
+}
+.circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.red { background-color: red; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+.hidden { display: none; }
